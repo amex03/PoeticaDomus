@@ -207,7 +207,7 @@ function loadPoem(url) {
 
             if (data.status == 404) throw "Author not found";
 
-            let wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&format=json&origin=*&search=' + data[0].author + '&formatversion=2&limit=1';
+            let wikiUrl = 'https://en.wikipedia.org/w/api.php?action=opensearch&format=json&origin=*&search=' + data[0].author + '&formatversion=2&limit=1';
 
             let contentTitle = $("<h3></h3>").text(data[0].title)
             $(contentTitle).addClass("contentTitle");
