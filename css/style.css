@@ -1,0 +1,127 @@
+
+
+body {
+    background-color: #222222;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+/* Style the navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 4px solid rgb(63, 0, 0);
+    border-radius: 20px;
+    margin: 2px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input[type="text"] {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(63, 0, 0);
+    width: 400px;
+}
+
+h2 {
+text-align: center;
+}
+
+#contentArea { 
+    padding: 50px;
+    color:#222222;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.col-md-4 {
+    
+}
+
+/* loaded title of a poem during list of author's works*/
+.poemTitle {
+}
+
+
+/* ------------------- JS RELATED CLASSES AND IDS ------------------- */
+
+/* Input box for user to enter search terms */
+#input {
+
+}
+
+/* Search button - click to submit #input into api call */
+#search {
+
+}
+
+/* Button id, on click lists available authors */
+#generateAuthorList {
+
+}
+
+/* Main box where poems, titles, and author content appears */
+
+
+/* for generated author list names */
+.poemListName {
+
+}
+
+
+
+/* title loaded to content area when a poem is selected */
+.contentTitle {
+    color: rgb(63, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* author loaded to content area when a poem is selected */
+.contentAuthor {
+
+}
+
+/* poem lines loaded to content area when a poem is selected */
+.poemLine {
+
+}
+
+/* link to wikipedia article that is generated at the bottom of the page */
+.wikiLink {
+
+}
+
+/* On Hover */
+
+.poemTitle:hover {
+    color: green;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------------- */
